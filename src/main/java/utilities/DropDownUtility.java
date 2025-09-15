@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class DropDownUtility extends Utility{
+    // this is wropper for web elemnt. I'd add folder main/com/core/elements and I'd add it here
 
     private static Select findDropDown(By locator){
         return new Select(driver.findElement(locator));
