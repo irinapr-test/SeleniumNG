@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import java.util.Set;
 
 public class GetUtility extends Utility{
-
+//update name to be BrowserUntils
     public static String getWindowHandle(){
         return driver.getWindowHandle();
     }
