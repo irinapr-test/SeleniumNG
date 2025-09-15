@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class DropDownUtility extends Utility{
-
+//I'd move it to separated folder. It seems mor elike wropper element, so I'd move it java/core/elemts folder
     private static Select findDropDown(By locator){
         return new Select(driver.findElement(locator));
     }
